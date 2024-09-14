@@ -6,6 +6,7 @@
 body{
     font-family: Arial,  sans-serif;
     
+    
 }
 header{
     background-color: #333;
@@ -23,15 +24,18 @@ nav a:hover{
 }
 
 .hero{
-    height: 80vh;
-    background-image: url(https://tse4.mm.bing.net/th?id=OIP.1Dw-qeOltFvnz6VOu-2-wgHaFN&pid=Api&P=0&h=220);
-    background-size: cover;
-    background-position: center;
+    min-height: 80vh;
+background-image: url(https://tse4.mm.bing.net/th?id=OIP.1Dw-qeOltFvnz6VOu-2-wgHaFN&pid=Api&P=0&h=220);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     text-align: center;
+    padding: 0 20px;
 }
 .hero h1{
     font-size: 32px;
@@ -52,7 +56,8 @@ footer{
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 15px;
+    padding: 10px;
+    
 }
 footer p{
     margin: 0;
