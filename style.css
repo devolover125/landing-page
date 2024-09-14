@@ -24,7 +24,7 @@ nav a:hover{
 }
 
 .hero{
-    min-height: 80vh;
+    min-height: 100vh;
 background-image: url(https://tse4.mm.bing.net/th?id=OIP.1Dw-qeOltFvnz6VOu-2-wgHaFN&pid=Api&P=0&h=220);
 background-size: cover;
 background-position: center;
@@ -64,7 +64,7 @@ footer p{
 }
 @media (max-width: 768px) {
     .hero {
-        height: 60vh;
+        height: 70vh;
     }
 
     .hero h1 {
